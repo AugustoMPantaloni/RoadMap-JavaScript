@@ -1,3 +1,5 @@
+--Porfavor visualiza este README desde tu editor de codigo, se vera mas ordenado.
+
 --Recuerda que para poder visualizar tu tarea necesitas ajustar la ruta del script de index.html.
 
 --El nombre de cada tarea indica: la etapa (primer numero), el tema (segundo numero) y el ejercico (letra) EJ: 2.1.A (Etapa 2, Tema 1, Ejercicio A).
