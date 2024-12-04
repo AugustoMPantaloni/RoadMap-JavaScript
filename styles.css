@@ -1,0 +1,142 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: 'Consolas', 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo del título */
+h1 {
+    font-size: 42px;
+    color: #00bfff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #00bfff;
+    border-radius: 12px;
+    background-color: #333333;
+    box-shadow: 0 0 25px rgba(0, 191, 255, 0.5);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Efecto de hover sobre el título */
+h1:hover {
+    background-color: #444444;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Estilo para el texto adicional */
+.info-text {
+    font-size: 18px;
+    color: #f1f1f1;
+    background-color: #333333;
+    border: 2px solid #00bfff;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 25px;
+    max-width: 600px;
+    width: 80%;
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Resaltar la palabra README */
+.info-text strong {
+    color: #00bfff;
+}
+
+/* Estilo para la cita inspiradora */
+.cita {
+    font-size: 20px; /* Ajustar el tamaño de la cita */
+    font-style: italic; /* Poner la cita en cursiva */
+    color: #e0e0e0;
+    margin-bottom: 50px; /* Mayor espacio debajo de la cita */
+    padding: 20px;
+    background-color: #444444;
+    border: 2px solid #00bfff;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.2);
+}
+
+/* Estilo para el pie de página */
+.footer {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 8px;
+    border: 2px solid #00bfff;
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+.footer strong {
+    color: #00bfff;
+}
+
+/* Animación de desvanecimiento para los elementos */
+h1, .info-text, .footer, .cita {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilos para las listas en la sección de consejos */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+ul li {
+    font-size: 18px;
+    background-color: #444444;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #333333;
+}
+
+/* Estilo para el botón de enlace (README) */
+a {
+    color: #00bfff;
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid #00bfff;
+    border-radius: 8px;
+    padding: 12px 22px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    background-color: #00bfff;
+    color: #1c1c1c;
+    transform: scale(1.1);
+}
