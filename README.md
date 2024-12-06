@@ -9,7 +9,7 @@
 
 Plan de acción para empezar desde los fundamentos
 
-                            Etapa 1: Fundamentos de JavaScript
+                                                                    Etapa 1: Fundamentos de JavaScript
 En esta etapa repasaremos los conceptos básicos con un enfoque en profundidad.
 
 1. Variables y tipos de datos
@@ -17,28 +17,45 @@ Objetivo: Dominar las diferencias entre var, let y const y trabajar con los tipo
 
 Teoría: Revisaremos tipos primitivos (string, number, boolean, etc.) y valores por referencia (array, object).
     -A:
-Crear un programa que registre información de un usuario (nombre, edad, email) y la muestre formateada. Implementar validaciones para cada dato ingresado.
+        Crear un programa que registre información de un usuario (nombre, edad, email) y la muestre formateada. Implementar validaciones para cada dato ingresado.
     -B: 
-Validar Número de Teléfono. Pide al usuario que ingrese un número de teléfono válido. Un número válido debe:
+        Validar Número de Teléfono. Pide al usuario que ingrese un número de teléfono válido. Un número válido debe:
         Tener exactamente 10 dígitos.
         Incluir solo números.
         Si el número no es válido, muestra un mensaje de error y repite la solicitud.
     -C:
-    Crea un programa que simule un sistema de gestión de cuentas bancarias.
-    
-    Declara las siguientes variables con diferentes tipos de datos:
+        Crea un programa que simule un sistema de gestión de cuentas bancarias.
+        Declara las siguientes variables con diferentes tipos de datos:
         nombreCliente: El nombre del cliente (tipo string).
         saldoCuenta: El saldo de la cuenta bancaria (tipo number).
         esCuentaActiva: Un valor booleano (true o false) que indique si la cuenta está activa.
         transacciones: Un array de objetos, cada objeto representa una transacción con las propiedades fecha (tipo string) y monto (tipo number).
         Utiliza var, let y const de manera adecuada.
-
-    Si la cuenta está activa, realiza una transacción (restando o sumando un monto al saldo) y agrega la transacción al array transacciones.
-    Si la cuenta no está activa, muestra un mensaje de error.
-    Haz que el programa imprima:
-    El nombre del cliente.
-    El saldo actual.
-    Las transacciones realizadas.
+        Si la cuenta está activa, realiza una transacción (restando o sumando un monto al saldo) y agrega la transacción al array transacciones.
+        Si la cuenta no está activa, muestra un mensaje de error.
+        Haz que el programa imprima:
+        El nombre del cliente.
+        El saldo actual.
+        Las transacciones realizadas.
+    -D: 
+        Inventario de Productos
+        Crea un programa que registre información de un producto:
+        Nombre del producto (string).
+        Precio (number).
+        Categoría (string).
+        En stock (booleano, indica si el producto está disponible).
+        Luego, imprime esta información en formato de tabla usando console.table().
+    -E: 
+        Calculadora de Edad
+        Pide al usuario su año de nacimiento.
+        Calcula su edad basándote en el año actual.
+        Muestra un mensaje que indique si la persona es mayor de edad o no.
+    -F: 
+        Gestión de Tareas
+        Declara un array vacío llamado tareas.
+        Crea un programa que permita agregar nuevas tareas (string) al array.
+        Agrega un contador para mostrar cuántas tareas hay en total.
+        Imprime las tareas en un formato de lista.
 
 2. Operadores y expresiones
 Objetivo: Comprender operadores aritméticos, lógicos y ternarios.
