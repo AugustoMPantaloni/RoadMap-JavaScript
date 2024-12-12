@@ -9,7 +9,7 @@
 
 Plan de acción para empezar desde los fundamentos
 
-                                                                    Etapa 1: Fundamentos de JavaScript
+                                Etapa 1: Fundamentos de JavaScript
 En esta etapa repasaremos los conceptos básicos con un enfoque en profundidad.
 
 1. Variables y tipos de datos
