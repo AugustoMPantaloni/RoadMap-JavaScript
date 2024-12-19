@@ -8,6 +8,8 @@
 
                                                                             Plan de Estudio JavaScript
 
+---
+
                                 Etapa 1: Fundamentos
 
 1. Variables y Tipos de Datos
