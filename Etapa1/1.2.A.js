@@ -1,5 +1,6 @@
 // no se realizo el reto.
-let numero1, numero2, operacion;  // Declaración global
+
+let numero1, numero2, operacion;  // Variables globales
 
 function solicitarNumeros (){
     numero1 = parseFloat(prompt("ingrese el primer numero para la operacion:"));

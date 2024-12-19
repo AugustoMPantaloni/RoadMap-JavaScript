@@ -6,69 +6,124 @@
 
 --Puedes ver la resolucion a cada ejercicio en la respectiva carpeta de cada etapa, pero intenta resolverlo por ti mismo primero. Usa un limite de tiempo para resolver cada ejercicio por ejemplo 1 hora.
 
+                                                                            Plan de Estudio JavaScript
 
-Plan de acción para empezar desde los fundamentos
+                                Etapa 1: Fundamentos
 
-                                Etapa 1: Fundamentos de JavaScript
-En esta etapa repasaremos los conceptos básicos con un enfoque en profundidad.
+1. Variables y Tipos de Datos
+**Objetivo:** Comprender las bases de las variables y los tipos de datos en JavaScript.
 
-1. Variables y tipos de datos
-Objetivo: Dominar las diferencias entre var, let y const y trabajar con los tipos de datos.
+#### Teoría:
+- Variables: `var`, `let`, `const`.
+- Tipos de datos: primitivos (`string`, `number`, `boolean`, `undefined`, `null`) y de referencia (`object`, `array`, `function`).
 
-Teoría: Revisaremos tipos primitivos (string, number, boolean, etc.) y valores por referencia (array, object).
-    -A:
-        Crear un programa que registre información de un usuario (nombre, edad, email) y la muestre formateada. Implementar validaciones para cada dato ingresado.
-    -B: 
-        Validar Número de Teléfono. Pide al usuario que ingrese un número de teléfono válido. Un número válido debe:
-        Tener exactamente 10 dígitos.
-        Incluir solo números.
-        Si el número no es válido, muestra un mensaje de error y repite la solicitud.
-    -C:
-        Crea un programa que simule un sistema de gestión de cuentas bancarias.
-        Declara las siguientes variables con diferentes tipos de datos:
-        nombreCliente: El nombre del cliente (tipo string).
-        saldoCuenta: El saldo de la cuenta bancaria (tipo number).
-        esCuentaActiva: Un valor booleano (true o false) que indique si la cuenta está activa.
-        transacciones: Un array de objetos, cada objeto representa una transacción con las propiedades fecha (tipo string) y monto (tipo number).
-        Utiliza var, let y const de manera adecuada.
-        Si la cuenta está activa, realiza una transacción (restando o sumando un monto al saldo) y agrega la transacción al array transacciones.
-        Si la cuenta no está activa, muestra un mensaje de error.
-        Haz que el programa imprima:
-        El nombre del cliente.
-        El saldo actual.
-        Las transacciones realizadas.
-    -D: 
-        Inventario de Productos
-        Crea un programa que registre información de un producto:
-        Nombre del producto (string).
-        Precio (number).
-        Categoría (string).
-        En stock (booleano, indica si el producto está disponible).
-        Luego, imprime esta información en formato de tabla usando console.table().
-    -E: 
-        Calculadora de Edad
-        Pide al usuario su año de nacimiento.
-        Calcula su edad basándote en el año actual.
-        Muestra un mensaje que indique si la persona es mayor de edad o no.
-    -F: 
-        Gestión de Tareas
-        Declara un array vacío llamado tareas.
-        Crea un programa que permita agregar nuevas tareas (string) al array.
-        Agrega un contador para mostrar cuántas tareas hay en total.
-        Imprime las tareas en un formato de lista.
+#### Ejercicios:
+- **A.** Declarar variables usando `let` y `const`.
+- **B.** Identificar el tipo de dato de diferentes valores usando `typeof`.
+- **C.** Crear y modificar un objeto simple.
+- **D.** Crear y manipular un array.
 
-2. Operadores y expresiones
-Objetivo: Comprender operadores aritméticos, lógicos y ternarios.
+2. Operadores y Expresiones
+**Objetivo:** Dominar los operadores matemáticos, de comparación y lógicos.
 
-Teoría: Explicaremos cómo funcionan los operadores y las prioridades entre ellos.
-    -A:
-Crear una calculadora básica con suma, resta, multiplicación y división.
-Reto: Agregar soporte para operaciones más avanzadas como exponentes o raíces.
+#### Teoría:
+- Operadores aritméticos: `+`, `-`, `*`, `/`, `%`.
+- Operadores de comparación: `==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, `>=`.
+- Operadores lógicos: `&&`, `||`, `!`.
 
-3. Estructuras de control
-Objetivo: Repasar condicionales y bucles.
+#### Ejercicios:
+- **A.** Crear una calculadora básica que realice sumas, restas, multiplicaciones y divisiones.
+- **B.** Verificar si un número es par o impar.
+- **C.** Comparar dos variables y determinar si son iguales en valor y tipo.
 
-Teoría: Diferencia entre if/else, switch, y los tipos de bucles (for, while, do...while).
-    -A:
-Crear un programa que recorra un array de números e identifique cuáles son pares.
-Reto: Crear un juego tipo "adivina el número" usando un bucle y condicionales.
+3. Estructuras de Control
+**Objetivo:** Aprender a tomar decisiones y repetir acciones en el código.
+
+#### Teoría:
+- Condicionales: `if`, `else`, `else if`, `switch`.
+- Bucles: `for`, `while`, `do...while`.
+
+#### Ejercicios:
+- **A.** Crear un programa que verifique si un usuario es mayor de edad.
+- **B.** Hacer un contador que imprima los números del 1 al 10.
+- **C.** Crear un menú utilizando `switch` para seleccionar entre diferentes opciones.
+
+4. Funciones
+**Objetivo:** Estructurar el código utilizando funciones reutilizables.
+
+#### Teoría:
+- Declaración de funciones.
+- Parámetros y valores de retorno.
+- Funciones flecha.
+
+#### Ejercicios:
+- **A.** Crear una función que sume dos números.
+- **B.** Hacer una función que calcule el factorial de un número.
+- **C.** Diseñar una función que convierta grados Celsius a Fahrenheit.
+
+---
+
+                                Etapa 2: Trabajo con Estructuras de Datos
+
+5. Arrays y Métodos Básicos
+**Objetivo:** Manipular listas de datos.
+
+#### Teoría:
+- Creación de arrays.
+- Métodos: `push`, `pop`, `shift`, `unshift`, `forEach`, `map`, `filter`.
+
+#### Ejercicios:
+- **A.** Crear un array de números y sumar todos sus elementos.
+- **B.** Filtrar un array para obtener solo los números mayores a 10.
+- **C.** Usar `map` para transformar un array de grados Celsius a Fahrenheit.
+
+6. Manejo de Cadenas (Strings)
+**Objetivo:** Trabajar con texto y realizar operaciones comunes.
+
+#### Teoría:
+- Propiedades y métodos: `length`, `toUpperCase`, `toLowerCase`, `split`, `slice`, `includes`.
+
+#### Ejercicios:
+- **A.** Contar la cantidad de caracteres en una cadena.
+- **B.** Verificar si una palabra está contenida en una oración.
+- **C.** Dividir una cadena en palabras y contar cuántas hay.
+
+7. Objetos Básicos
+**Objetivo:** Comprender la estructura y uso de objetos.
+
+#### Teoría:
+- Creación de objetos.
+- Acceso y modificación de propiedades.
+- Métodos dentro de objetos.
+
+#### Ejercicios:
+- **A.** Crear un objeto que represente un auto con propiedades como marca, modelo y año.
+- **B.** Agregar un método al objeto que imprima una descripción del auto.
+- **C.** Crear un sistema de inventario utilizando un array de objetos.
+
+---
+
+                                Mini-Proyectos
+
+1. Sistema de Gestión Bancaria
+**Descripción:** Crear un sistema que permita a un usuario:
+- Consultar su saldo.
+- Depositar dinero.
+- Retirar dinero.
+
+**Conceptos Aplicados:** Objetos, funciones, condicionales.
+
+2. Juego de Adivinanza
+**Descripción:** Crear un juego donde el usuario adivine un número aleatorio.
+
+**Conceptos Aplicados:** Bucles, condicionales, funciones.
+
+3. Inventario de Productos
+**Descripción:** Diseñar un sistema que administre productos con funcionalidades como:
+- Agregar, eliminar y listar productos.
+- Filtrar productos por categoría o precio.
+
+**Conceptos Aplicados:** Arrays, objetos, funciones.
+
+---
+
