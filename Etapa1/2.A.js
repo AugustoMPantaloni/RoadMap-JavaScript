@@ -1,5 +1,3 @@
-// no se realizo el reto.
-
 let numero1, numero2, operacion;  // Variables globales
 
 function solicitarNumeros (){
