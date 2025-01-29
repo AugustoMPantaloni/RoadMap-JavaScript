@@ -2,7 +2,7 @@
 
 --Recuerda que para poder visualizar tu tarea necesitas ajustar la ruta del script de index.html.
 
---El nombre de cada tarea indica: la etapa (primer numero), el tema (segundo numero) y el ejercico (letra) EJ: 2.1.A (Etapa 2, Tema 1, Ejercicio A).
+--El nombre de cada tarea indica: la carpeta indica la etapa, el tema (primer numero) y el ejercico (letra) EJ: 2.A (Tema 2, Ejercicio A).
 
 --Puedes ver la resolucion a cada ejercicio en la respectiva carpeta de cada etapa, pero intenta resolverlo por ti mismo primero. Usa un limite de tiempo para resolver cada ejercicio por ejemplo 1 hora.
 
