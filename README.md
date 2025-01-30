@@ -129,3 +129,59 @@
 
 ---
 
+                                Etapa 3: Interacción con el Usuario y Programación Asíncrona
+En esta etapa, te enfocarías en cómo interactuar con el usuario a través del DOM, manejar eventos y trabajar con asincronía usando promesas y async/await. Esto es fundamental para crear aplicaciones dinámicas en JavaScript.
+
+8. Manipulación del DOM
+**Objetivo:** Aprender a modificar y actualizar elementos en una página web usando JavaScript.
+
+### Teoría:
+- ¿Qué es el DOM?
+- Selección de elementos: getElementById, querySelector, querySelectorAll.
+- Modificación de contenido: .textContent, .innerHTML, .value.
+- Modificación de estilos: .style, classList.add/remove/toggle.
+
+### Ejercicios:
+- **A.** Cambiar el contenido de un <p> con JavaScript.
+- **B.** Alternar clases CSS para cambiar colores con un botón.
+- **C.** Crear una lista de tareas donde se puedan agregar y eliminar elementos dinámicamente.
+
+9. Manejo de Eventos
+**Objetivo:** Aprender a capturar la interacción del usuario con eventos en JavaScript.
+
+### Teoría:
+- Eventos del DOM: click, input, keydown, submit.
+- Métodos: addEventListener, removeEventListener.
+- Prevención de comportamiento por defecto con event.preventDefault().
+
+### Ejercicios:
+- **A.** Capturar el texto ingresado en un <input> y mostrarlo en pantalla en tiempo real.
+- **B.** Crear un contador que aumente o disminuya con botones.
+- **C.**Validar un formulario y mostrar mensajes de error si los datos no son correctos.
+
+10. Programación Asíncrona y Fetch API
+**Objetivo:** Aprender a trabajar con datos externos usando fetch y promesas.
+
+### Teoría:
+- Concepto de asincronía en JavaScript.
+- Promesas: .then(), .catch(), .finally().
+- async/await para manejar asincronía de manera más clara.
+- Introducción a Fetch API para consumir datos de una API.
+
+### Ejercicios:
+- **A.**Hacer una petición a una API pública y mostrar los datos en pantalla.
+- **B.** Simular una carga de datos con setTimeout y Promise.
+- **C.** Crear un buscador de usuarios que obtenga información de una API y la muestre en pantalla.
+
+                                Proyecto Final
+
+Crear una aplicación interactiva que combine:
+✅ Manipulación del DOM (mostrar información en pantalla).
+✅ Eventos (capturar interacciones del usuario).
+✅ Fetch API (traer datos desde una API real).
+
+Por ejemplo:
+📌 Un clima interactivo: El usuario ingresa su ciudad y se muestran los datos del clima usando una API.
+📌 Un gestor de tareas con persistencia en LocalStorage.
+📌 Un buscador de personajes de una API como Pokémon o Star Wars.
+
