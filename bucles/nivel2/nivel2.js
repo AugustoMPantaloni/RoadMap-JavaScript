@@ -95,6 +95,7 @@ for(let f = 1; f <= 5; f++){
     console.log(cont)
 }
 */
+
 /* Ejercicio 9
 for(let f = 1; f <= 5; f++){
     let cont =""
