@@ -2,7 +2,7 @@ Ejercicios Nivel 2 – Bucles Anidados
 
 Estos ejercicios están enfocados en desarrollar lógica usando bucles anidados. A partir de este punto, cada ejercicio requerirá al menos un bucle dentro de otro para resolver patrones, estructuras, o coordenadas repetitivas.
 
-/* Un truco para estos ejercicios es imaginarse una matris como esta (de las filas y columnas que indique el ejercicio) e ir representando que pasa en cada iteracion.
+/* Un truco para estos ejercicios es imaginarse una matriz como esta (de las filas y columnas que indique el ejercicio) e ir representando que pasa en cada iteracion.
 
     + + + + + + +
     + 1 1 1 1 1 + 
@@ -80,5 +80,82 @@ Ejemplo:
 
 ---
 
+##  Ejercicio 7: Tablero de dameros alternados
+Mostrar un tablero de 5 filas × 5 columnas donde:
+- Las casillas pares (fila + columna = par) muestren el número de la columna. 
+- Las casillas impares (fila + columna = impar) muestren un asterisco *.
+Ejemplo:
+    1 * 3 * 5  
+    * 2 * 4 *  
+    1 * 3 * 5  
+    * 2 * 4 *  
+    1 * 3 * 5 
 
 
+##  Ejercicio 8: Tablero de multiplicacion
+Tablero de multiplicaciones:
+- Casillas pares: producto fila × columna.
+- Casillas impares: un guión -.
+Ejemplo:
+    1 - 3 - 5  
+    - 4 - 8 -  
+    3 - 9 - 15  
+    - 8 - 16 -  
+    5 - 15 - 25  
+
+
+**Problemas de patrones diagonales**
+
+##  Ejercicio 9: Diagonal principal
+Mostrar una matriz de 5x5 donde:
+- La diagonal principal (donde fila == columna) muestre 1.
+- El resto de las casillas muestren 0.
+Ejemplo:
+    1 0 0 0 0  
+    0 1 0 0 0  
+    0 0 1 0 0  
+    0 0 0 1 0  
+    0 0 0 0 1  
+
+---
+
+##  Ejercicio 10: Diagonal secundaria
+Mostrar una matriz de 5x5 donde:
+- La diagonal secundaria (donde fila + columna = 6) muestre 1.
+- El resto de las casillas muestren 0.
+Ejemplo:
+    0 0 0 0 1  
+    0 0 0 1 0  
+    0 0 1 0 0  
+    0 1 0 0 0  
+    1 0 0 0 0  
+
+---
+
+##  Ejercicio 11: Diagonal cruzada
+Mostrar una matriz de 5x5 donde:
+- La diagonal principal y secundaria muestran 1.
+- El resto de las casillas muestren 0.
+Ejemplo:
+    1 0 0 0 1  
+    0 1 0 1 0  
+    0 0 1 0 0  
+    0 1 0 1 0  
+    1 0 0 0 1  
+
+--- **¿Subimos la dificultad?**
+
+##  Ejercicio 12: Patrón de dos diagonales con símbolos
+Mostrar una matriz de 7x7 donde:
+- La diagonal principal (fila == columna) muestre "\".
+- La diagonal secundaria (fila + columna == 8) muestre "/".
+- El resto muestre un punto ".".
+- En el centro (fila 4, columna 4) las dos diagonales se cruzan. Allí imprime una X.
+Ejemplo:
+    \ . . . . . /  
+    . \ . . . / .  
+    . . \ . / . .  
+    . . . X . . .  
+    . . / . \ . .  
+    . / . . . \ .  
+    / . . . . . \  
