@@ -6,6 +6,8 @@
 
 --Puedes ver la resolucion a cada ejercicio en la respectiva carpeta de cada etapa, pero intenta resolverlo por ti mismo primero. Usa un limite de tiempo para resolver cada ejercicio por ejemplo 1 hora.
 
+--Tambien vas a notar que hay carpetas con temas mas especificos como "bucles" con su propio README con ejercicios y su archivo con las respuestas.
+
                                                                             Plan de Estudio JavaScript
 
 ---
